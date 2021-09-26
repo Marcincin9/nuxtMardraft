@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Contact",
+    "path": "/Contact",
+    "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\Contact.vue",
+    "chunkName": "pages/Contact",
+    "_name": "_177a2061"
+  },
+  {
+    "name": "Projects",
+    "path": "/Projects",
+    "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\Projects.vue",
+    "chunkName": "pages/Projects",
+    "_name": "_716a4cee"
+  },
+  {
+    "name": "MyProjects-Graphics",
+    "path": "/MyProjects/Graphics",
+    "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\MyProjects\\\\Graphics.vue",
+    "chunkName": "pages/MyProjects/Graphics",
+    "_name": "_6c4b6800"
+  },
+  {
+    "name": "MyProjects-Photography",
+    "path": "/MyProjects/Photography",
+    "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\MyProjects\\\\Photography.vue",
+    "chunkName": "pages/MyProjects/Photography",
+    "_name": "_69e3f038"
+  },
+  {
+    "name": "MyProjects-Webpages",
+    "path": "/MyProjects/Webpages",
+    "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\MyProjects\\\\Webpages.vue",
+    "chunkName": "pages/MyProjects/Webpages",
+    "_name": "_6c15ffe5"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_60a2b273"
+  }
+]
