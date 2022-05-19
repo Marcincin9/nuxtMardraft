@@ -1,54 +1,64 @@
 <template>
-<div>
-  <Header/>
-    <div id="intro" class="intro">
-             <div class="overlayBg"></div> 
-        <div class="content static">
-          <div class="container">
-              <div class="row">
-                <div class="static-intro ">                  
-                  <h3>Graphics</h3>
-                  <p>Please familiarize yourself with the work that I had the pleasure of doing so far for companies and private persons.</p>
-                </div>
-  
-              <div class="gallery-image">
-                <div class="img-box rounded-md border-4 border-yellow-300 hover:border-white" >
-                  <img src="@/assets/img/dbsm.jpg" alt="" />
-                  <div class="transparent-box">
-                    <div class="caption">
-                      <p>DBSM - Logo</p>
-                      <p class="opacity-low">Driving School</p>
-                    </div>
-                  </div> 
-                </div>
-                <div class="img-box rounded-md border-4 border-yellow-300 hover:border-white">
-                  <img src="@/assets/img/quilling.jpg" alt="" />
-                  <div class="transparent-box">
-                    <div class="caption">
-                      <p>Quilling Art - Logo</p>
-                      <p class="opacity-low">Paper quilling</p>
-                    </div>
-                  </div>
-                </div>               
-                <div class="img-box rounded-md border-4 border-yellow-300 hover:border-white">
-                  <img src="@/assets/img/stork.jpg" alt="" />
-                  <div class="transparent-box">
-                    <div class="caption">
-                      <p>Stork - Logo</p>
-                      <p class="opacity-low">Polish Deli</p>
-                    </div>
-                  </div> 
-                </div>              
-              </div>
-                <NuxtLink to="/projects">BACK</NuxtLink>
-         </div>                 
-       </div> 
-      </div>
-    </div>
-    <Footer />
+  <div>
+    <Header/>
 
 
-</div>
+    <div class="container-a4">
+		<ul class="caption-style-4">
+			<li class="rounded-md border-4 border-sky hover:border-rhino">
+			<img src="@/assets/img/dbsm.jpg" alt="dbsm"/>
+				<div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						<h1>DBSM - Logo</h1>
+						<p>Driving School</p>
+					</div>
+				</div>
+			</li>
+			<li class="rounded-md border-4 border-sky hover:border-rhino">
+				<img src="@/assets/img/quilling.jpg" alt="quilling"/>
+				<div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						<h1>Quilling Art - Logo</h1>
+						<p>Paper quilling</p>
+					</div>
+				</div>
+			</li>
+			<li class="rounded-md border-4 border-sky hover:border-rhino">
+				<img src="@/assets/img/stork.jpg" alt="stork"/>
+				<div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						<h1>Stork - Logo</h1>
+						<p>Polish Deli</p>
+     			</div>
+				</div>
+			</li>
+			<li class="rounded-md border-4 border-sky hover:border-rhino">
+				 <img src="@/assets/img/murowianka.jpg" alt="murowianka"/>
+				<div class="caption">
+					<div class="blur"></div>
+					<div class="caption-text">
+						<h1>Murowianka - Logo</h1>
+						<p>Polish Craft Club</p>
+     			</div>
+				</div>
+			</li>
+		</ul>
+			 
+	</div>
+
+	 <div class="go-back">
+         		<NuxtLink class="text-rhino" to="/projects">BACK</NuxtLink>
+   	 </div>
+
+   <Footer />
+  </div>
 </template>
 
 
+
+<style scoped>
+	
+</style>

@@ -1,28 +1,148 @@
 <template>
   <div>
-      <div id="intro" class="front image-background"> 
+      <div id="intro" class="front"> 
         <div class="overlayBg"></div> 
         <div class="content">
+        <section class="top-box">
           <div class="container">
-              <div class="row text-center">
+              <div class="row entry-copy">
                 <div class="grid grid-cols-2">
-                  <h2>
-                    <span class="text-yellow-300">Designer</span> <br>
-                    UI/UX with a passion for design user experiences.
-                  </h2> 
-                  <h2>
-                    <span class="text-yellow-300">Coder</span> <br>
-                      FrontEnd Developer focused on writing a clean code.
-                  </h2>
-                </div>
-          <p class="intro-paragraph">Hello, My name is Marcin Olszynski and I am a Designer / FrontEnd Developer living in Walsall, England</p>
+                    <div class="box-left top-intro">
+                        <h3> Creating websites, content management systems and online stores. <br /> Design graphics, mockups and newsletters.</h3>
+                    </div>
+
+                    <div class="box-right top-intro">
+                         <!-- <img src="@/assets/img/right-img.png" alt="pictue" /> -->
+                    </div>
+                </div><br>
+
         </div>
       </div>
+  </section>
+  <section class="mid-box">
+       <div class="who-text entry-copy text-center container">
+         <h4>Who we are?</h4>
+         <div class="skills-intro">
+          <p><a href="http://mardraft.co.uk">Mardraft</a> team creates websites and mockups for individual clients and companies. </p>
+          <br />
+          <p>We approach each client individually, paying attention to the needs and requirements during<br /> the development of the project, and offer reliable aftercare service.</p>
+        </div>
+       </div>
+         <div class="social-links">
+                <div class="icons"> <a href="https://www.facebook.com/Mardraft-Freelance-web-development-109635647881632" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                <div class="icons"><a href="https://github.com/Marcincin9" target="_blank"><i class="fab fa-github"></i></a></div>
+                <div class="icons"><a href="https://www.linkedin.com/in/marcin-olszynski-5b14b2208/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+            </div>
+  </section>
+   <section class="bottom-box">
+       <div class="who-text entry-copy text-center">
+         <h4>What we use?</h4>
+
+           <div class="row text-center container">
+                <div class="grid grid-cols-2">
+
+                    <div class="box-left">
+                        <div class="skills-area">
+                          <div class="col-xs-2">
+                            <i class="lnr lnr-screen"></i>
+                          </div>
+                          <div class="col-xs-10">
+                            <h4>Front-end</h4>
+                            <p>JavaScript frameworks, html / css frameworks</p>
+                          </div>
+                        </div>
+                        <div class="skills-area">
+                          <div class="col-xs-2">
+                            <i class="lnr lnr-database"></i>
+                          </div>
+                          <div class="col-xs-10">
+                            <h4>Back-end</h4>
+                            <p>Database, server environments, php frameworks</p>
+                          </div>
+                        </div>
+                    </div>
+                   
+                    <div class="box-right">
+                      <div class="skills-area">
+                        <div class="col-xs-2">
+                          <i class="lnr lnr-magic-wand"></i>
+                        </div>
+                        <div class="col-xs-10">
+                          <h4>Designing</h4>
+                          <p>Mockups and patterns, Graphic design</p>
+                        </div>
+                      </div>
+                      <div class="skills-area">
+                        <div class="col-xs-2">
+                          <i class="lnr lnr-laptop-phone"></i>
+                        </div>
+                        <div class="col-xs-10">
+                          <h4>CMS</h4>
+                          <p>Wordpress, Magento, PrestaShop</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+       
+           </div>
+    </section>
+     <section class="mid-box">
+       <div class="who-text entry-copy text-center">
+         <h4>Our work process.</h4>
+
+           <div class="row text-center container">
+                <div class="grid grid-cols-2">
+
+                    <div class="box-left">
+                        <div class="skills-area">
+                          <div class="col-xs-2">
+                            <i class="lnr lnr-screen"></i>
+                          </div>
+                          <div class="col-xs-10">
+                            <h4>Research and Planning</h4>
+                            <p>Understending the customer requirements, followed by research and then begins the planning process.</p>
+                          </div>
+                        </div>
+                        <div class="skills-area">
+                          <div class="col-xs-2">
+                            <i class="lnr lnr-database"></i>
+                          </div>
+                          <div class="col-xs-10">
+                            <h4>Design concepts</h4>
+                            <p>Careful planning and testing of the design until the final impression is achieved. </p>
+                          </div>
+                        </div>
+                    </div>
+                   
+                    <div class="box-right">
+                      <div class="skills-area">
+                        <div class="col-xs-2">
+                          <i class="lnr lnr-magic-wand"></i>
+                        </div>
+                        <div class="col-xs-10">
+                          <h4>Front-End Development</h4>
+                          <p>When the design is ready, we start producing HTML CSS and JavaScript for your chosen website.</p>
+                        </div>
+                      </div>
+                      <div class="skills-area">
+                        <div class="col-xs-2">
+                          <i class="lnr lnr-laptop-phone"></i>
+                        </div>
+                        <div class="col-xs-10">
+                          <h4>Back-End Development</h4>
+                          <p>Wordpress, Magento, PrestaShop</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+       
+           </div>
+        </section>
+
       </div>
-      <div class="socials">
-        <svg viewBox="0 0 24 24" fill="#FCD34D" width="3em" height="3em"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
-        <svg viewBox="0 0 24 24" fill="#FCD34D" width="3em" height="3em"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
-      </div>
+     
     </div>    
 </div>
 </template>
@@ -33,54 +153,113 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
+.box-left{
+  padding:20px;
+  }
+
+.box-right{
+  padding:20px;
+  
+ }
+
+ .top-intro{
+  margin-top: 220px;
+}
+
+
+.top-box{
+    width: 100%;
+    background: url(@/assets/img/bg-top.jpg);
+    height: 700px;
+    margin-top: 85px;
+      background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  box-shadow:inset 0 0 0 2000px rgba(76, 159, 200, 0.538);
+
+}
+
+.mid-box{
+  width: 100%;
+  background-color: #c5c5c5;
+  height: 700px;
+}
+
+.bottom-box{
+  width: 100%;
+  background-color: #ffffff;
+  height: 750px;
+}
+
+.entry-copy h2{
+  margin-top: 100px;
+}
+
+.lnr{
+  font-size: 1.5em;  
+}
+
+.skills-intro, .skills-area{
+  padding-top: 35px;
+}
+
+.who-text h4{
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+     padding-top: 140px;
+    color: #4C9EC8;
+
+}
+
+.skills h4 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    color: #4C9EC8;
+   
+ 
+}
+
+.skills, .who-text p{
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center; ;
+}
+
+.skills-area h4 {
+    margin: 0px 0px 4px;
+    padding: 8px 0 2px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1em;
+    color: #4C9EC8;
+    margin-bottom: 10px;
+}
+
+.skills-area p{
+
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.drop-shadow-lg {text-shadow:3px 3px 6px rgb(0 0 0 / 26%), 0 0 5px rgb(15 3 86 / 22%) }
 .row {
     margin-left: -15px;
     margin-right: -15px;
     
 }
-
-.front.image-background {
-    background: #008388 url('../assets/img/dark-wallpaper.jpg') center center no-repeat;
-    background-size: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    -webkit-backface-visibility: hidden;
-}
-.overlayBg{
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #004950 none repeat scroll 0 0;
-    opacity: 0.80;
-    filter: alpha(opacity=80);
-    z-index: 2;
-
-}
-
-.front .content{
-position: relative;
-width: 100%;
-z-index: 3;
-top: 50%;
-}
-
-.socials{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 85px;  
-  }
-.socials svg{
-  margin-right: 20px;
-}
-
 
 .container {
   margin-right: auto;
@@ -89,12 +268,17 @@ top: 50%;
   padding-right: 35px;
   z-index: 3;
 }
+
+
+
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
     padding-left: 15px;
     padding-right: 15px;
   }
+
 }
 @media (min-width: 992px) {
   .container {
@@ -107,41 +291,103 @@ top: 50%;
   .container {
     width: 1170px;
     padding-left:15px;
-  padding-right: 15px;
+    padding-right: 15px;
   }
 }
-.front {
-    padding-top: 100px;
-    padding-bottom: 60px;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    min-height: 800px;
-    text-align: left;
-    color: #e4e4e4;
-}
+
 .front h2 {
     font-weight: 110;
-    font-size: 40px;
+    font-size: 35px;
+    margin-top:80px;
+}
+.front h3 {
+    font-size: 28px;
     margin-bottom: 50px;
-    margin-top:150px;
+  }
+
+@media (max-width: 967px) {
+   
+    .boxes{
+      margin-left: 0px;
+    }
+
+    .bgHeader{
+          padding: 20px;
+    }
+
+    .top-box{
+      margin-top: 0px;
+      height: 400px;
+    } 
+
+    .top-intro {
+    margin-top: 200px;
 }
-.front p {
-    font-size: 19px;
-    color: #f5f5f5;
-    opacity: 0.8;
-}
-@media (max-width: 767px) {
   .front h2 {
     font-weight: 100;
-    font-size: 28px;
+    font-size: 26px;
     margin-top: 40px;
-    margin-bottom: 50px;
+   }
+    .front h3 {
+    font-size: 15px;
+    margin-bottom: 30px;
   }
  
  .front p {
-    font-size: 18px;
+    font-size: 15px;
+    padding: 0px;
   }
 
+  .bgFooter p{
+    font-size: 12px;
+  }
+  .box-left{
+    padding:10px;
+    width: 200px;
 }
+.box-right{
+  padding:10px;
+}
+
+.skills-area h4 {
+  font-size: 15px;
+}
+
+}
+
+/* social icons */
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:100px;
+  
+}
+.icons{
+  padding:20px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+
+.icons a{
+  text-align: center;
+  text-decoration: none;
+  color: #1c2330;
+}
+
+.icons a .fab {
+  font-size: 30px;
+  position: relative;
+  z-index: 2;
+  transition: color 0.5s;
+}
+
+.social-links a:hover .fab {
+  color: #4C9EC8;
+}
+
+/* social end */
+
 </style>

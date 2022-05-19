@@ -3,10 +3,10 @@
     class="fixed w-full m-auto top-0 animated">
 <header class="bgHeader lg:flex lg:justify-evenly">
    
-    <div class="flex items-center justify-between px-6 py-7 ">
+    <div class="flex items-center justify-between">
          <div class="text-2xl">
-            <a href="/"><span class="font-black text-yellow-300">Mardraft </span>
-            <span class="font-thin hidden-xs hidden-sm hidden-md">Marcin Olszynski</span>
+            <a href="/"><img class="logo-blue" src="@/assets/img/mardraft-logo.png" alt="mardraft" width="60px" /><span class="font-black text-xl text-white">Mardraft </span>
+            <span class="font-thin hidden-xs hidden-sm text-xl">Web Development</span>
             </a>
          </div>
          <div>
@@ -20,9 +20,9 @@
          </div>
     </div>
           <div :class="isOpen ? 'block' : 'hidden'" class="px-6 py-7 lg:flex items-center">
-            <NuxtLink class="block px-4 rounded hover:text-yellow-300"  to="/">HOME</NuxtLink> 
-            <NuxtLink class="block px-4 rounded hover:text-yellow-300" to="/projects">PROJECTS</NuxtLink>
-            <NuxtLink class="block px-4 rounded hover:text-yellow-300" to="/contact">CONTACT</NuxtLink>
+            <NuxtLink class="block px-4 rounded hover:text-sunset spacer"  to="/">HOME</NuxtLink> 
+            <NuxtLink class="block px-4 rounded hover:text-sunset spacer" to="/projects">PROJECTS</NuxtLink>
+            <span class="block px-4 spacer">enquiries@mardraft.co.uk</span>
          </div>
                 
   </header>
@@ -68,21 +68,28 @@ methods: {
 
 <style>
 
+.logo-blue{ 
+  float:left;
+  margin-right: 5px;;
+  }
 
 nav {
     z-index: 4;
+    background:  #2a3956;
 }
+
+.bgHeader {
+  
+  color: #e4e4e4;
+}
+
 
 nav.scrolled {
     @apply shadow-2xl;
     border-bottom: 0px;
+    background: #2a3956;
 }
 
-
-.bgHeader {
-  background:  #08434A;
-  color: #e4e4e4;
-}
 
 .menu {
   background-color: transparent;
@@ -145,5 +152,9 @@ nav.scrolled {
   .hidden-lg {
     display: none !important;
   }
+}
+
+.spacer{
+  padding-bottom: 10px;
 }
 </style>

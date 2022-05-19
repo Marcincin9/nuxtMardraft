@@ -14,18 +14,18 @@
     "_name": "_716a4cee"
   },
   {
+    "name": "en-PrivacyPolicy",
+    "path": "/en/PrivacyPolicy",
+    "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\en\\\\PrivacyPolicy.vue",
+    "chunkName": "pages/en/PrivacyPolicy",
+    "_name": "_4b950c12"
+  },
+  {
     "name": "MyProjects-Graphics",
     "path": "/MyProjects/Graphics",
     "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\MyProjects\\\\Graphics.vue",
     "chunkName": "pages/MyProjects/Graphics",
     "_name": "_6c4b6800"
-  },
-  {
-    "name": "MyProjects-Photography",
-    "path": "/MyProjects/Photography",
-    "component": "D:\\\\pracaNauka\\\\nuxtMardraft\\\\pages\\\\MyProjects\\\\Photography.vue",
-    "chunkName": "pages/MyProjects/Photography",
-    "_name": "_69e3f038"
   },
   {
     "name": "MyProjects-Webpages",

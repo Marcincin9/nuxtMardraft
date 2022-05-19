@@ -13,10 +13,18 @@ module.exports = {
      '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       none: 'none',
-    }
+    },
+    colors: {
+       'rhino': '#2A3956',
+       'sunset': '#FCD34D',
+      'white': '#ffffff',
+       'sky': '#4C9EC8',
+      },
   },
   variants: {
     extend: {},
   },
   plugins: [],
+
+  
 }

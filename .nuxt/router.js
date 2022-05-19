@@ -6,8 +6,8 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _177a2061 = () => interopDefault(import('..\\pages\\Contact.vue' /* webpackChunkName: "pages/Contact" */))
 const _716a4cee = () => interopDefault(import('..\\pages\\Projects.vue' /* webpackChunkName: "pages/Projects" */))
+const _4b950c12 = () => interopDefault(import('..\\pages\\en\\PrivacyPolicy.vue' /* webpackChunkName: "pages/en/PrivacyPolicy" */))
 const _6c4b6800 = () => interopDefault(import('..\\pages\\MyProjects\\Graphics.vue' /* webpackChunkName: "pages/MyProjects/Graphics" */))
-const _69e3f038 = () => interopDefault(import('..\\pages\\MyProjects\\Photography.vue' /* webpackChunkName: "pages/MyProjects/Photography" */))
 const _6c15ffe5 = () => interopDefault(import('..\\pages\\MyProjects\\Webpages.vue' /* webpackChunkName: "pages/MyProjects/Webpages" */))
 const _60a2b273 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -31,13 +31,13 @@ export const routerOptions = {
     component: _716a4cee,
     name: "Projects"
   }, {
+    path: "/en/PrivacyPolicy",
+    component: _4b950c12,
+    name: "en-PrivacyPolicy"
+  }, {
     path: "/MyProjects/Graphics",
     component: _6c4b6800,
     name: "MyProjects-Graphics"
-  }, {
-    path: "/MyProjects/Photography",
-    component: _69e3f038,
-    name: "MyProjects-Photography"
   }, {
     path: "/MyProjects/Webpages",
     component: _6c15ffe5,

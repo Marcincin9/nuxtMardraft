@@ -8,7 +8,7 @@
               <div class="row">
                 <div class="static-intro ">
                   <h3>Contact</h3>
-                  <p>Get in touch</p>
+                
                 </div>
 
     <div v-if="success" class="rounded bg-indigo-500 text-white text-lg p-4">

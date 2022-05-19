@@ -2,31 +2,27 @@
 <div>
   <Header/>
     <div id="intro" class="intro">
-             <div class="overlayBg"></div> 
+             
         <div class="content static">
           <div class="container">
               <div class="row">
-                <div class="static-intro "> 
-                  <h3>Projects</h3>
-                  <p>Please familiarize yourself with the work that I had the pleasure of doing so far for companies and private persons.</p>
-                </div>
-            
-             
+                                     
              <div class="flex-container wrap">
                   <div 
-                  class="col-sm-4  processes transform hover:-translate-z-1 hover:scale-105 duration-100 ease-in-out" 
+                  class="col-md-6  processes transform hover:-translate-z-1 hover:scale-105 duration-1000 ease-in-out" 
                   v-for="project in projects" 
                   :key="project.id"> 
-                    <nuxt-link :to="{path: 'MyProjects/' + project.title, params: {id: project.id, title: project.title, url: project.url}}">
-                    <div class="boxes rounded-md shadow-sm border hover:border-yellow-300 hover:text-yellow-300">
+                    <nuxt-link :to="{path: 'MyProjects/' + project.title, params: {id: project.id, title: project.title, img: project.img,}}">
+                    <div class="boxes rounded-md shadow-sm border hover:border-sky hover:text-sky text-rhino">
                         <h2>{{ project.title }}</h2>
-                        <p>{{ project.details }}</p>
+                        <!-- <p>{{ project.details }}</p> -->
+                        <img v-bind:src="project.img" width="250px" >
                     </div>
                     </nuxt-link> 
                   </div>  
              </div>
                </div>
-                 
+               
             </div> 
 
         </div>
@@ -44,22 +40,18 @@ export default {
            projects:[
                {title: 'Webpages',                  
                 id: 1,                                 
-                details: 'Responsive websites built for an optimal user experience that achieves your business goals.',
-                
+                details: '',
+                img: require('../assets/img/zdjecia/web.png'),
                 },
                 
                {title: 'Graphics',                  
                 id: 2,                
-                details: 'Podwykonawstwo i wsparcie projektów tworzonych przez agencje interaktywne i software house.',
+                details: '',
+                 img: require('../assets/img/zdjecia/graphic.png'),
                 
                 },
 
-               {title: 'Photography',                 
-                 id: 3, 
-                 details: 'Podwykonawstwo i wsparcie projektów tworzonych przez agencje interaktywne i software house.',
-                 
-                 },
-           ],
+            ],
         
        };
     },
@@ -67,46 +59,8 @@ export default {
 </script>
 
 <style>
-  .col-sm-4 {
-    width: 33.33333333%;
-    
-  }
 
-.wrap    { 
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-} 
-
-.flex-container{
-  display: flex;
-   padding: 0;
-  margin: 0;
-}
-
-
-.overlayBg{
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #08434A none repeat scroll 0 0; 
-   
-}
-
-.intro .content{
-position: relative;
-width: 100%;
-top: 50%;
-}
-
-.static-intro p {
-    line-height: 1.5em;
-    font-size: 16px;
-    padding-bottom: 10px;
-}
-
+/* start - webpages i graphics */
 .static h3 {
     font-size: 32px;
     line-height: 55px;
@@ -114,20 +68,24 @@ top: 50%;
     font-weight: 100;
     margin-bottom: 20px;
     padding-bottom: 0px;
-    color: #FCD34D;
-    border-bottom: 1px solid #e0e0e0;
+    color: #4C9EC8;
+    border-bottom: 1px solid #2A3956;
     margin-top: 30px;
 }
 
 .processes {
-    margin-top: 100px;
-    margin-bottom: 20px;    
+    margin-bottom: 80px;
+    margin-top:80px;  
     width: 100%;    
 }
 
 .boxes{
-    padding: 5px;
-    margin: 10px;
+    padding: 25px;
+    margin-left: 15px;
+}
+.boxes img{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -139,72 +97,38 @@ top: 50%;
     margin: 20px;
 }
 
-.processes p {
-    min-height: 80px;
-    padding: 20px;
-    font-size: 17px;
-    font-weight: 300;
-}
 
 @media (max-width: 767px) {
   .processes {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    min-height: auto;
+    
+   margin-bottom: 80px;
     padding-top: 30px;
    
   }
-  .processes {
+
+  /* .processes .process-indexdesc {
     min-height: auto;
-  }
-  .processes .process-indexdesc {
-    min-height: auto;
-  }
+  } */
 
 }
 
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 35px;
-  padding-right: 35px;
-  z-index: 1;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-    padding-left:15px;
-    padding-right: 15px;
-  }
-}
 .intro {
     padding-top: 100px;
     padding-bottom: 60px;
     position: relative;
     width: 100%;
     height: 100%;
-    min-height: 800px;
-    text-align: left;
+    /* min-height: 800px; */
+    text-align: center;
     color: #e4e4e4;
 }
 .intro h2 {
     font-weight: 110;
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 30px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .intro p {
     font-size: 19px;
@@ -216,8 +140,9 @@ top: 50%;
   .intro h2 {
     font-weight: 100;
     font-size: 25px;   
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     margin-top: 10px;
+    
   }
  
  .intro p {
